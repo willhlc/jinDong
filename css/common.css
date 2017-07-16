@@ -1,0 +1,35 @@
+html,body,h1,h2,h3,h4,ul,li,input{
+    margin:0;
+    padding:0;
+    /*font-size: 16px;*/
+}
+.fr{
+    float:right;
+}
+.fl{
+    float:left;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.clearfix{
+    content:"";
+    clear:both;
+    height: 0;
+    width: 0;
+    visibility:hidden;
+    display:block;
+}
+.container{
+    width: 1190px;
+    margin:0 auto;
+}
+.pr{
+    position:relative;
+}
+.pa{
+    position:absolute;
+}
